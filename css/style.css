@@ -286,10 +286,6 @@ color: #4D5AE5;
     padding-bottom: 120px;
 }
 
-.our-team-container {
-    padding: 32px 0;
-}
-
 .our-team-title {
     color: var(--second-title-color);
     margin-bottom: 72px;
@@ -316,9 +312,9 @@ color: #4D5AE5;
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* .team-text{
-    padding: 32px 0 8px 0;
-} */
+.team-text{
+    padding: 32px 0;
+}
 
 .our-team-name{
     text-align: center;
@@ -342,7 +338,6 @@ color: #4D5AE5;
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-bottom: 32px;
 }
 
 .team-item-icon {
