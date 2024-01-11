@@ -85,7 +85,7 @@ img {
 }
 
 .logo {
-color: #404bbf;
+    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -108,7 +108,7 @@ color: #404bbf;
 }
 
 .navigation-item {
-    color: #2E2f42;
+    color: #404bbf;
 
     font-family: Roboto;
     font-size: 16px;
@@ -127,7 +127,7 @@ color: #404bbf;
     color: #404bbf;
 }
 
-.navigation-item::after {
+.navigation-item-link::after {
     content: '';
     position: absolute;
     left: 0;
@@ -142,7 +142,7 @@ color: #404bbf;
     transition: transform 0.3s ease-in-out;
 }
 
-.navigation-item:hover::after {
+.navigation-item-link:hover::after {
     transform: scaleX(1);
     width: 100%;
 }
